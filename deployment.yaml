@@ -6,7 +6,7 @@ metadata:
   labels:
     foo: bar
 spec:
-  replicas: 2  # HPA を使う場合は指定しない
+  # replicas: 2  # HPA を使う場合は指定しない
   selector:
     matchLabels:
       app: aoki-test
