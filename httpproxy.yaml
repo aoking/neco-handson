@@ -9,7 +9,7 @@ spec:
   ingressClassName: global
   virtualhost:
     # 自動 dctest 環境では <name>.<namespace>.neco-dev.dev-ne.co
-    fqdn: aoki-test.sandbox.sandbox.neco-dev.dev-ne.co
+    fqdn: aoki-test.sandbox.neco-dev.dev-ne.co
     tls:
       secretName: aoki-test-cert
   routes:
