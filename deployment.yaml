@@ -17,8 +17,8 @@ spec:
     spec:
       # pull secret は各自作ってください
       # https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
-      #imagePullSecrets:
-      #- name: aoki-regcred
+      imagePullSecrets:
+      - name: aoki-regcred
       containers:
       - name: webapp
         image: ghcr.io/kintone/aoki-test:latest
